@@ -45,10 +45,10 @@ try:
 
                 # map fingers → command
                 if fingers == 0: cmd = 'S'  # fist = stop
-                elif fingers == 1: cmd = 'F' # forward
-                elif fingers == 2: cmd = 'B' # backward
-                elif fingers == 3: cmd = 'L' # left
-                elif fingers == 4: cmd = 'R' # right
+                elif fingers == 1: cmd = 'L' # Left
+                elif fingers == 2: cmd = 'R' # Right
+                elif fingers == 3: cmd = 'F' # Forward
+                elif fingers == 4: cmd = 'B' # Backward
                 else: cmd = 'S'
 
                 mp_draw.draw_landmarks(frame, result.multi_hand_landmarks[0],
@@ -83,4 +83,5 @@ finally:
         ser.close()
     except:
         pass
+
     print("Resources released. COM11 closed.")
