@@ -18,7 +18,7 @@ Based on finger count detected:
 | Fingers Shown | Action |
 |---------------|--------|
 | 👊 (0)        | Stop 🚫 |
-| ☝️ (1)        | Forward ⬆️ |
+| ☝️ (1)        | Left ⬅️ |
 | ✌️ (2)        | Right ➡️ |
 | ✌️☝️ (3)      | Forward ⬆️ |
 | ✋ (4)        | Backward ⬇️ |
